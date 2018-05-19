@@ -23,4 +23,4 @@ def login_page(request):
         username = form.cleaned_data.get("username")
         password = form.cleaned_data.get("password")
         ctx['form'] = LoginForm()
-    return render(request, "auth/login.html", ctx)
+    return render(request, "auth/login.html", ctx
